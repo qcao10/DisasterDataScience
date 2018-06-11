@@ -1,0 +1,12 @@
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3030323.tif
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3030323.tif.ovr
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3030332.tif
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3030332.tif.ovr
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3030333.tif
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3030333.tif.ovr
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3032101.tif
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3032101.tif.ovr
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3032110.tif
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3032110.tif.ovr
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3032111.tif
+http://opendata.digitalglobe.com/hurricane-harvey/post-event/2017-09-02/105001000B9D8100/3032111.tif.ovr

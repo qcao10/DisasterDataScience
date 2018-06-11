@@ -1,0 +1,26 @@
+400x400: success:16837
+       failure:   1637
+       total  :  18474
+       size = 0.000897575
+
+128x128: success:16837
+       failure:   1637
+       total  :  18474
+       size = 0.000287224
+
+64x64: success: 16837
+       failure:  1637
+       total  : 18474
+       size = 0.000143612
+
+32x32: success: 16837
+       failure:  1637
+       total  : 18474
+       size = 7.18060e-05
+
+
+445.645 pixels => size = 0.001
+400 pixels => size = 0.0008975754243848804
+1 pixel => size = 2.243938560962201e-06
+128 pixels=> size = 0.0002872241358031617
+64 pixels=> size = 0.00014361206790158086
