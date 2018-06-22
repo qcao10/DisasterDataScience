@@ -1,3 +1,5 @@
+#created by Daniel Cao
+#create table from coordinates to corresponding tiff
 import geopandas as gpd
 import pandas as pd
 import csv

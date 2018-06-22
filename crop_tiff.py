@@ -1,3 +1,6 @@
+#created by Zhanlin Liu
+#crop images using raster mask
+
 import rasterio
 from rasterio.tools.mask import mask
 # the polygon GeoJSON geometry

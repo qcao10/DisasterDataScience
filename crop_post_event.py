@@ -1,3 +1,5 @@
+#created by Daniel Cao
+#crop images with specific pixel size from tiff
 import osgeo
 import gdal
 import numpy as np

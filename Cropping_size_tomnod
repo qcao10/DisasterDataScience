@@ -1,9 +1,14 @@
-400x400: success:16837
+400x400: success:16837 (2081 is black)
        failure:   1637
        total  :  18474
        size = 0.000897575
 
-128x128: success:16837
+256x256: success:16837
+       failure:   1637
+       total  :  18474
+       size = 0.000574448
+
+128x128: success:16837(2102 is black)
        failure:   1637
        total  :  18474
        size = 0.000287224

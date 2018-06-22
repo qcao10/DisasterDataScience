@@ -1,3 +1,6 @@
+#created by Amy Xu
+#to check coordinates
+
 import geopandas as gpd 
 from osgeo import gdal
 import requests

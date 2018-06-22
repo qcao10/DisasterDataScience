@@ -1,3 +1,6 @@
+#created by Daniel Cao
+#write a bash script to download all catalogs at once
+
 import os
 
 file = open('run-all-post.sh','w')

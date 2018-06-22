@@ -1,3 +1,6 @@
+#created by Amy Xu
+#crop images
+
 import subprocess
 import math
 import geopandas as gpd

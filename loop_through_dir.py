@@ -1,4 +1,5 @@
-
+#created by Daniel Cao
+#get coordinate ranges of catalog ids and tiffs
 import osgeo
 import gdal
 import os
