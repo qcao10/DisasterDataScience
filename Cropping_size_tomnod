@@ -29,3 +29,38 @@
 1 pixel => size = 2.243938560962201e-06
 128 pixels=> size = 0.0002872241358031617
 64 pixels=> size = 0.00014361206790158086
+
+Final image count:
+no_damage: 7209
+damage: 14284
+
+Move images
+train: 5000 - 5000
+Val : 1000 - 1000
+Test: 1000 - 1000
+shuf -n 5000 -e /home/ubuntu/no_damage/* | xargs -i mv {} /home/ubuntu/train_another/no_damage/
+shuf -n 5000 -e /home/ubuntu/damage/* | xargs -i mv {} /home/ubuntu/train_another/damage/
+shuf -n 1000 -e /home/ubuntu/no_damage/* | xargs -i mv {} /home/ubuntu/validation_another/no_damage/
+shuf -n 1000 -e /home/ubuntu/damage/* | xargs -i mv {} /home/ubuntu/validation_another/damage/
+shuf -n 1000 -e /home/ubuntu/no_damage/* | xargs -i mv {} /home/ubuntu/test_another/no_damage/
+shuf -n 8000 -e /home/ubuntu/damage/* | xargs -i mv {} /home/ubuntu/test_another/damage/
+
+To count files: ls -1 | wc -l
+
+ubuntu@ip-172-31-17-20:~$ ls -1 ./train_another/damage/ | wc -l
+5000
+ubuntu@ip-172-31-17-20:~$ ls -1 ./train_another/no_damage/ | wc -l
+5000
+ubuntu@ip-172-31-17-20:~$ ls -1 ./validation_another/no_damage/ | wc -l
+1000
+ubuntu@ip-172-31-17-20:~$ ls -1 ./validation_another/damage/ | wc -l
+1000
+ubuntu@ip-172-31-17-20:~$ ls -1 ./test_another/damage/ | wc -l
+8000
+ubuntu@ip-172-31-17-20:~$ ls -1 ./test_another/no_damage/ | wc -l
+1000
+
+Test2:8000(dam) - 1000(no_dam)
+1. Simple model:
+30 epochs
+Val accuracy: 95.9
